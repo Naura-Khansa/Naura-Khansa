@@ -103,3 +103,30 @@ body {
     text-align: center;
     padding: 20px;
 }
+
+@media screen and (max-width: 991.px) {
+    .container {
+        display: inline;
+        width: 100%;
+    }
+    .book-container {
+        width: 100%;
+        margin: auto;
+    }
+    .book {
+        width: 100%;
+        margin: auto;
+    }
+    .page {
+        width: 100%;
+        margin: auto;
+    }
+    .right-page {
+        width: 100%;
+        margin: auto;
+    }
+    .page img {
+        width: 100%;
+        margin: auto;
+    }
+}
